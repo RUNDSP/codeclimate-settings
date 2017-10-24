@@ -11,15 +11,12 @@ AllCops:
     - !ruby/regexp /old_and_unused\.rb$/
 Rails:
   Enabled: true
-
 Metrics/LineLength:
   Enabled: false
 Metrics/MethodLength:
-  Max: 60
-
+  Enabled: false
 Layout/SpaceInsideHashLiteralBraces:
   Enabled: false
-
 Style/FrozenStringLiteralComment:
   Enabled: false
 Style/ClassAndModuleChildren:
@@ -27,4 +24,6 @@ Style/ClassAndModuleChildren:
 Style/StringLiterals:
   Enabled: false
 Style/Documentation:
+  Enabled: false
+ClassLength:
   Enabled: false
