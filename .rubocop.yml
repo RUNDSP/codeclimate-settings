@@ -27,3 +27,5 @@ Style/Documentation:
   Enabled: false
 ClassLength:
   Enabled: false
+Metrics/BlockLength:
+  ExcludedMethods: ['describe', 'context']
